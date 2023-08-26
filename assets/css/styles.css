@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    border: 2px solid gray;
+    margin: 0 auto;
+    width: 360px;
+}
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
