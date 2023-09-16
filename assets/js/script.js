@@ -15,3 +15,7 @@ $("input").keypress(function(event){
         $("ul").append("<li><span><i class='fa-solid fa-trash'></i></span> " + todoText + "</li>")
     }
 })
+
+$(".fa-plus").click(function(){
+    $("input").fadeToggle()
+})
